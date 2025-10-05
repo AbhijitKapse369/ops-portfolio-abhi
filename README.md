@@ -22,3 +22,4 @@
 ### Files
 - `SOP_Workbook.xlsx` — S&OP model (instructions in its README sheet).
 - `Ops_KPI_Dashboard.xlsx` — KPI model (instructions in its README sheet).
+Data notice: The datasets in this repository are synthetic/anonymized, created for learning and demonstration. They mimic realistic patterns and a standard 12-month S&OP horizon; they are not from any employer.
