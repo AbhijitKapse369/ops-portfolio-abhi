@@ -32,3 +32,38 @@
 - `SOP_Workbook.xlsx` — S&OP model.
 - `Ops_KPI_Dashboard.xlsx` — KPI model.
 - `sop_chart.png`, `inventory_vs_safetystock.png`, `otd_by_dc.png` — charts used in this README.
+
+- ## How to use (3 quick steps)
+
+1) **S&OP workbook** → Open `SOP_Workbook.xlsx` → go to **Params** and try:
+   - Demand Uplift % (e.g., 5%)
+   - Capacity Change % (e.g., −3%)
+   - Safety Stock (days) (e.g., 15)
+   Review **S&OP** sheet charts: *Adjusted Demand vs Constrained Plan* and *Projected Inventory vs Safety Stock*.
+
+2) **Ops KPI dashboard** → Open `Ops_KPI_Dashboard.xlsx` → sheet **Orders** holds mock order lines.
+   - KPIs auto-calc on **KPIs** (OTD, OTIF, Pick/Pack TAT, Fill Rate)
+   - **Summary** shows monthly OTD% by DC with a built-in chart.
+
+3) **What-if demo** → Change a few **promised/ship dates** or **shipped_qty** in **Orders** and watch OTD/OTIF and the Summary chart update.
+
+---
+
+## What this demonstrates
+
+- **S&OP thinking**: convert demand & capacity into a **feasible plan** with **safety-stock** logic and stockout flags.  
+- **Ops analytics**: turn order lines into **service & productivity KPIs** used in daily huddles and weekly reviews.  
+- **Tooling**: Excel modeling, charting, KPI rollups, and data hygiene for ops/scm teams.
+
+---
+
+## Suggested topics (for repo discoverability)
+
+`supply-chain` `logistics` `S&OP` `demand-planning` `capacity-planning` `inventory` `OTIF` `KPI` `excel` `operations-analytics`
+
+---
+
+## Contact
+
+**Abhijit Kapse** · GitHub: `github.com/AbhijitKapse369/ops-portfolio-abhi` · LinkedIn: *add your link here*
+
